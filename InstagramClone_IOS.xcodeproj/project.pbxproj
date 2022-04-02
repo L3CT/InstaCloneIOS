@@ -14,6 +14,7 @@
 		095BC8FD27E8AF2F008A29C9 /* InstagramClone_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095BC8FC27E8AF2F008A29C9 /* InstagramClone_IOSTests.swift */; };
 		095BC90727E8AF2F008A29C9 /* InstagramClone_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095BC90627E8AF2F008A29C9 /* InstagramClone_IOSUITests.swift */; };
 		095BC90927E8AF2F008A29C9 /* InstagramClone_IOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095BC90827E8AF2F008A29C9 /* InstagramClone_IOSUITestsLaunchTests.swift */; };
+		095BC91627E8C181008A29C9 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095BC91527E8C181008A29C9 /* PostView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		095BC90227E8AF2F008A29C9 /* InstagramClone_IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramClone_IOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		095BC90627E8AF2F008A29C9 /* InstagramClone_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramClone_IOSUITests.swift; sourceTree = "<group>"; };
 		095BC90827E8AF2F008A29C9 /* InstagramClone_IOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramClone_IOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		095BC91527E8C181008A29C9 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				095BC8ED27E8AF2B008A29C9 /* ContentView.swift */,
 				095BC8EF27E8AF2F008A29C9 /* Assets.xcassets */,
 				095BC8F127E8AF2F008A29C9 /* Preview Content */,
+				095BC91527E8C181008A29C9 /* PostView.swift */,
 			);
 			path = InstagramClone_IOS;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				095BC8EE27E8AF2B008A29C9 /* ContentView.swift in Sources */,
+				095BC91627E8C181008A29C9 /* PostView.swift in Sources */,
 				095BC8EC27E8AF2B008A29C9 /* InstagramClone_IOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
